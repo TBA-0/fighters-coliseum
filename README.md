@@ -1,2 +1,4 @@
-# fighters-coliseum
+# work in progress!
+
+## fighters-coliseum
 Minecraft datapack inspired by the Yakuza/Like a Dragon series
