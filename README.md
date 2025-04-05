@@ -4,6 +4,13 @@
 Minecraft datapack inspired by the Yakuza/Like a Dragon series
 
 ## Planned Features:
+Boss name cards - <b>Implemented</b><br>
+Boss theme music during fight<br>
+Multiple miscellaneous fights ex. Yakuza 5 Kiryu vs 100 yakuza<br>
+Custom boss models/skins<br>
+Custom items ex. Majima's dagger
+
+## Boss Roster:
 Yakuza Final Boss Gauntlet:<br>
 ```
 Keiji Shibusawa (Yakuza 0)
