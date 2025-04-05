@@ -10,7 +10,7 @@ Multiple miscellaneous fights ex. Yakuza 5 Kiryu vs 100 yakuza<br>
 Custom boss models/skins<br>
 Custom items ex. Majima's dagger
 
-## Boss Roster:
+## Planned Boss Roster:
 Yakuza Final Boss Gauntlet:<br>
 ```
 Keiji Shibusawa (Yakuza 0)
