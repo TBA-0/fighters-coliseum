@@ -1,26 +1,41 @@
-# wave 1
-execute as @a[scores={wave=6}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Keiji Shibusawa"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:45.0}]}
+# wave 1 - Shibusawa
+execute as @a[scores={wave=1}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Keiji Shibusawa"}'}
+title @p title {"font":"minecraft:edosz","text":"KEIJI SHIBUSAWA"}
+title @p subtitle {"color":"white","font":"minecraft:edosz","text":"DOJIMA FAMILY LIEUTENANT, TOJO CLAN"}
 
-# wave 2
-execute as @a[scores={wave=1}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Akira Nishikiyama"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:30.0}]}
+# wave 2 - Nishiki
+execute as @a[scores={wave=2}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Akira Nishikiyama"}'}
+title @p title {"font":"minecraft:edosz","text":"AKIRA NISHIKIYAMA"}
+title @p subtitle {"color":"white","font":"minecraft:edosz","text":"TOJO CLAN NISHIKIYAMA FAMILY PATRIARCH"}
 
-# wave 3
-execute as @a[scores={wave=2}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Ryuji Goda"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:35.0}]}
+# wave 3 - Ryuji
+execute as @a[scores={wave=3}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Ryuji Goda"}'}
+title @p title {"font":"minecraft:edosz","text":"RYUJI GODA"}
+title @p subtitle {"color":"white","font":"minecraft:edosz","text":"OMI ALLIANCE, 2ND PATRIARCH OF THE GO-RYU CLAN"}
 
-# wave 4
-execute as @a[scores={wave=3}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Yoshitaka Mine"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:40.0}]}
+# wave 4 - Mine
+execute as @a[scores={wave=4}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Yoshitaka Mine"}'}
+title @p title {"font":"minecraft:edosz","text":"YOSHITAKA MINE"}
+title @p subtitle {"color":"white","font":"minecraft:edosz","text":"HAKUHO CLAN CHAIRMAN"}
 
-# wave 5
-execute as @a[scores={wave=4}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Seishiro Munakata"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:45.0}]}
+# wave 5 - Munakata
+execute as @a[scores={wave=5}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Seishiro Munakata"}'}
+title @p title {"font":"minecraft:edosz","text":"SEISHIRO MUNAKATA"}
 
-# wave 6
-execute as @a[scores={wave=5}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Masato Aizawa"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:45.0}]}
+# wave 6 - Aizawa
+execute as @a[scores={wave=6}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Masato Aizawa"}'}
+title @p title {"font":"minecraft:edosz","text":"MASATO AIZAWA"}
 
-# wave 7
-execute as @a[scores={wave=7}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Tsuneo Iwami"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:45.0}]}
+# wave 7 - Iwami
+execute as @a[scores={wave=7}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Tsuneo Iwami"}'}
+title @p title {"font":"minecraft:edosz","text":"TSUNEO IWAMI"}
+title @p subtitle {"color":"white","font":"minecraft:edosz","text":"CEO OF IWAMI SHIPBUILDING"}
 
-# wave 8
-execute as @a[scores={wave=8}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Kosei Shishido"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:45.0}]}
+# wave 8 - Shishido
+execute as @a[scores={wave=8}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Kosei Shishido"}'}
+title @p title {"font":"minecraft:edosz","text":"KOSEI SHISHIDO"}
+title @p subtitle {"color":"white","font":"minecraft:edosz","text":"WATASE FAMILY LIEUTENANT"}
 
-# wave 9
-execute as @a[scores={wave=9}] run summon minecraft:zombie ~ ~ ~ {CustomName:'{"text":"Masataka Ebina"}',Health:500.0f,MaxHealth:500.0f,ArmorItems:[{id:"minecraft:diamond_helmet",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_boots",Count:1b}],Attributes:[{Name:"generic.maxHealth",Base:500.0},{Name:"generic.attackDamage",Base:45.0}]}
+# wave 9 - Ebina
+execute as @a[scores={wave=9}] run summon zombie ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"bold":true,"color":"white","font":"minecraft:edosz","shadow_color":1879048191,"text":"Masataka Ebina"}'}
+title @p title {"font":"minecraft:edosz","text":"MASATAKA EBINA"}
