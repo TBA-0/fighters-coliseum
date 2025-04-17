@@ -1,0 +1,85 @@
+{
+    "music.custom.yakuza.shibusawa": {
+      "sounds": [
+        {
+          "name": "music/shibusawa_theme",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+    },
+    "music.custom.yakuza.nishiki": {
+      "sounds": [
+        {
+          "name": "music/nishiki_theme",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+    },
+    "music.custom.yakuza.ryuji": {
+      "sounds": [
+        {
+          "name": "music/ryuji_theme",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+  },
+  "music.custom.yakuza.mine": {
+    "sounds": [
+      {
+        "name": "music/mine_theme",
+        "stream": true,
+        "volume": 0.7
+      }
+    ]
+},
+"music.custom.yakuza.selfishdeed": {
+  "sounds": [
+    {
+      "name": "music/we_are_the_yakuza_4",
+      "stream": true,
+      "volume": 0.7
+    }
+  ]
+},
+"music.custom.yakuza.aizawa": {
+  "sounds": [
+    {
+      "name": "music/aizawa_theme",
+      "stream": true,
+      "volume": 0.7
+    }
+  ]
+},
+"music.custom.yakuza.iwami": {
+  "sounds": [
+    {
+      "name": "music/iwami_theme",
+      "stream": true,
+      "volume": 0.7
+    }
+  ]
+},
+"music.custom.yakuza.tendo": {
+  "sounds": [
+    {
+      "name": "music/tendo_theme",
+      "stream": true,
+      "volume": 0.7
+    }
+  ]
+},
+"music.custom.yakuza.ebina": {
+  "sounds": [
+    {
+      "name": "music/ebina_theme",
+      "stream": true,
+      "volume": 0.7
+    }
+  ]
+}
+}
+
+  
