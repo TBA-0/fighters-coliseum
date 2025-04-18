@@ -4,4 +4,6 @@ title @p title {"font":"minecraft:edosz","text":"RYUJI GODA"}
 title @p subtitle {"color":"white","font":"minecraft:edosz","text":"OMI ALLIANCE,"}
 title @p subtitle {"color":"white","font":"minecraft:edosz","text":"2ND PATRIATCH OF THE GO-RYU CLAN"}
 
+playsound minecraft:music.custom.yakuza.ryuji music @p
+
 execute as @e[type=zombie,tag=ryuji,nbt={Health:0.0f}] run scoreboard players add @a wave 1

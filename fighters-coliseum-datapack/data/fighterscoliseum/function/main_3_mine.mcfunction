@@ -3,4 +3,6 @@ execute as @a[scores={wave=4}] run summon zombie ~ ~ ~ {"Tags":["mine"],CustomNa
 title @p title {"font":"minecraft:edosz","text":"YOSHITAKA MINE"}
 title @p subtitle {"color":"white","font":"minecraft:edosz","text":"HAKUHO CLAN CHAIRMAN"}
 
+playsound minecraft:music.custom.yakuza.mine music @p
+
 execute as @e[type=zombie,tag=mine,nbt={Health:0.0f}] run scoreboard players add @a wave 1
